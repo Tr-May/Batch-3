@@ -3,12 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>List</title>
+    <title>Inline Stylesheets</title>
+    <style>
+        *{
+            background-color: beige;
+        }
+        h3{
+            color: indigo;
+        }
+    </style>
   </head>
   <body>
-    <h2>HTML List</h2>
+    <h2 style="color: red;">HTML List</h2>
     <h3>Unordered List</h3>
-    <!-- <ul type="disc[default]|square|circle"></ul> -->
     <ul>
       <li>Chrome</li>
       <li>Firefox</li>
@@ -16,7 +23,6 @@
     </ul>
 
     <h3>Ordered List</h3>
-    <!-- ol type = "1 | a | A | i| I" -->
     <ol type="a" start="24">
       <li>xylophone</li>
       <li>york</li>
@@ -34,13 +40,12 @@
       <dt>JS</dt>
       <dd>JavaScript is for the behaviour of the webpage.</dd>
     </dl>
-
-    <!-- 
-    unordered List
-    ordered list 
-    description list 
--->
-    <br />
-    <a href="link.html">&larr;Go Back</a>
   </body>
 </html>
+
+<!--
+    css fundamental rules
+    background-color : color name | color code;
+    color : color name | color code;
+
+-->
