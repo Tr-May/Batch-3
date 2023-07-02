@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form Element</title>
+  </head>
+  <body>
+    <h2>HTML Form Element</h2>
+    <form>
+      <fieldset>
+        <legend>Login Form</legend>
+        <div>
+          <label for="">Name</label>
+          <input type="text" />
+        </div>
+        <div>
+          <label for="">Password</label>
+          <input type="password" name="" id="" />
+        </div>
+        <div>
+          <input type="submit" value="Login" />
+          <input type="reset" value="Clear" />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Personal Information</legend>
+        <div>
+          <label for="">Email</label>
+          <input type="email" />
+        </div>
+        <div>
+          <label for="">Age</label>
+          <input type="number" min="1" max="27"/>
+          <!-- <input type="range" min="1" max="27" step="5"/> -->
+        </div>
+        <div>
+          <label for="">DOB</label>
+          <input type="date" />
+        </div>
+        <div>
+          <label for="">Gender</label>
+          <input type="radio" name="gender" id="" />Male
+          <input type="radio" name="gender" id="" />Female
+        </div>
+        <div>
+          <label for="">Skills</label>
+          <input type="checkbox" name="" id="" />HTML
+          <input type="checkbox" name="" id="" />CSS
+          <input type="checkbox" name="" id="" />JS
+          <input type="checkbox" name="" id="" />Bootstrap
+        </div>
+        <div>
+            <label for="">Favorite Color</label>
+            <input type="color" name="" id="">
+        </div>
+        <div>
+          <label for="">Address</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
+
+<!-- html 
+html => div, input => text, password, radio, checkbox, submit, reset, hidden
+xhtml => 
+html5 => header, nav, footer, section, aside, article, input =>email, tel, url,
+         date, color, number, range
+-->

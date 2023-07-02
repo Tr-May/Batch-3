@@ -5,20 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS:Background Image</title>
     <style>
-        *{
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-      h2{
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      h2 {
         text-align: center;
         text-transform: uppercase;
         margin-top: 2em;
+      }
+      .box {
+        width: 500px;
+        height: 200px;
+        border: 1px solid black;
+        margin-top: 50px;
+      }
+      div#one {
+        background: url(images/smile-sm.png) rgb(2, 249, 241);
+        background-repeat: no-repeat;
+        background-position: 10% center;
+      }
+      div#two {
+        background-image: url(images/smile-lg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
       }
     </style>
   </head>
   <body>
     <h2>CSS : Background Image</h2>
-
+    <div id="one" class="box"></div>
+    <div id="two" class="box"></div>
   </body>
 </html>
