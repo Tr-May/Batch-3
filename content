@@ -1,0 +1,35 @@
+color => background color , text color 
+name, hexa code, rgb 
+hexa code => base 2, base 10, base 8, base 16
+
+base 16 => 
+0
+...
+9
+A
+B
+C 
+D 
+E
+F
+10
+..
+1F
+20
+...
+FF
+100
+COLOR CODE => #XXXXXX
+
+
+WHITE => #ffffff =>#fff
+#ffffcc => #ffc 
+#ffaabb=>#fab
+
+
+rgb(red 0-255, green 0-255, blue 0-55)
+rgb(0,0,0) => black
+rgb(255,0,0) => red
+rgb(0,255,0) => green
+rgb(0,0,255) => blue
+rgb(255,255,255) => white
